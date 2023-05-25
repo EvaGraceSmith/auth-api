@@ -9,7 +9,7 @@ const cors = require('cors');
 const errorHandler = require('./error-handlers/500.js');
 const notFound = require('./error-handlers/404.js');
 const authRoutes = require('./auth/routes.js');
-const logger = require('./middleware/logger.js');
+const logger = require('./auth/middleware/logger.js');
 
 // Prepare the express app
 const app = express();
@@ -31,6 +31,7 @@ app.use(errorHandler);
 module.exports = {
   server: app,
   start: (port) => {
+    if (!port) { throw new Error('Missing Port'); }
     app.listen(port, () => {
       console.log(`Server Up on ${port}`);
     });
