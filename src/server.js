@@ -23,6 +23,8 @@ app.use(logger);
 
 // Routes
 app.use(authRoutes);
+// REWORK THIS !!!
+// app.use('/api/v1', authRoutes);
 
 // Catchalls
 app.use(notFound);
