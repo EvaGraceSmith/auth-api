@@ -1,6 +1,6 @@
 'use strict';
 
-const userModel = require('./users.js');
+const userModel = require('../auth/models/users.js');
 const { Sequelize, DataTypes } = require('sequelize');
 
 const clothesModel = require('./clothes/model.js');
