@@ -25,8 +25,7 @@ app.use(logger);
 
 // Routes
 app.use(authRoutes);
-// REWORK THIS !!!
-// app.use('/api/v1', authRoutes);
+
 app.use('/api/v1', v1Routes);
 app.use('/api/v2', v2Routes);
 
