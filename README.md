@@ -11,7 +11,7 @@ Modularize the provided code into a single server instance
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/EvaGraceSmith/auth-api)
-<!-- - [Back-end deployment](https://auth-api-lab08.onrender.com) -->
+- [Back-end deployment](https://auth-api-xzpo.onrender.com)
 
 ### Collaborators
 
