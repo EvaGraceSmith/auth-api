@@ -47,4 +47,4 @@ Modularize the provided code into a single server instance
 
 #### UML
 
-![UML](./img/class-08-UML.png)
+![UML](./img/Class-08-UML.png)
